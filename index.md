@@ -146,7 +146,7 @@ The cases below are descriptions of key applications for which the LSC hub can b
 
 Current fertilizer and soil recommendations lack local context, leading to soil health decline and lower productivity. Integrated Soil Fertility Management can improve practices, boost yields, and provide climate benefits. This case aims to deliver better agronomic advice to farmers via agricultural extension services or directly, using existing data and tools.
 
-{{< icon-link title="Soil Fertility Management" icon_library="bootstrap" icon="arrow-right" link="./cases/isfm.md" link_classes="link-white" >}}
+#### Crops
 {{< icon-link title="Maize" icon_library="bootstrap" icon="arrow-right" link="./cases/crops/maize.qmd" link_classes="link-white" >}}
 
 
@@ -161,10 +161,9 @@ Current fertilizer and soil recommendations lack local context, leading to soil 
 
 Soil erosion threatens sustainability, climate, and food security in hilly regions of Ethiopia, Kenya, and Rwanda. Current land practices neglect local factors and erosion risks. The goal is to inform stakeholders and promote sustainable land practices for LDN, providing catchment managers and farmers with relevant information through the LSC-hub.
 
-{{< icon-link title="Soil water conservation" icon_library="bootstrap" icon="arrow-right" link="./cases/swc.md" link_classes="link-white" >}}
+#### Threats
 
 {{< icon-link title="Soil erosion" icon_library="bootstrap" icon="arrow-right" link="./cases/threats/erosion.md" link_classes="link-white" >}}
-
 
 ::::::
 :::::
