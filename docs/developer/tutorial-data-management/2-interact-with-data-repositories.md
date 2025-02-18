@@ -27,10 +27,10 @@ First we will navigate to the folder in which we unzipped the sample data reposi
 cd {path-where-you-unzipped-zipfile}
 ```
 
-We will create a virtual environment `pgdc` (using Python 3.9) for our project and activate it.
+We will create a virtual environment `pgdc` (using Python 3.10) for our project and activate it.
 
 ```bash
-conda create --name pgdc python=3.11 
+conda create --name pgdc python=3.10 
 conda activate pgdc
 ```
 
@@ -41,7 +41,6 @@ Install the dependencies for the tool:
 ```
 conda install -c conda-forge gdal
 conda install -c conda-forge pysqlite3
-conda install -c conda-forge pandas
 ```
 
 Now we will install the crawler tool, [GeoDataCrawler](https://pypi.org/project/geodatacrawler/). The tool is under active development at ISRIC and facilitates many of our data workflows. It is powered by some popular metadata and transformation libraries; [OWSLib](https://github.com/geopython/OWSLib), [pygeometa](https://github.com/geopython/pygeometa) and [GDAL](https://gdal.org).
@@ -61,40 +60,11 @@ crawl-metadata --help
 In case you have difficulties setting up python with gdal on your local machine (or just want to try out), an alternative approach is available, using python via Docker. [Docker](https://www.docker.com) is a virtualisation technology which runs isolated containers within your computer. 
 
 - First [install docker](https://docs.docker.com/desktop/install/windows-install/). 
-- Then in a blank folder create 2 files: `Dockerfile`
-
-```
-FROM mambaorg/micromamba:1.5.3
-COPY --chown=$MAMBA_USER:$MAMBA_USER env.yaml /tmp/env.yaml
-RUN micromamba install --yes --file /tmp/env.yaml
-RUN micromamba install -y -n base -c conda-forge gdal pandas pysqlite3
-RUN micromamba clean --all --yes
-ARG MAMBA_DOCKERFILE_ACTIVATE=1
-RUN pip install geodatacrawler
-```
-
-- and `env.yaml`
-
-```
-name: base
-channels:
-  - conda-forge
-dependencies:
-  - pyopenssl=20.0.1
-  - python=3.9.1
-  - requests=2.25.1
-```
-
-- Build the geodatacrawler image (an image is a blueprint to create containers). Navigate with powershell or commandline to the folder you have just created.
-
-```bash
-docker build -t org/metatraining .
-```
-
+- Start the docker desktop tool.
 - Now navigate to the folder where you unzipped the data repository and use the docker image to run the crawler:
 
 ```bash
-docker run -it --rm org/metatraining crawl-metadata --help
+docker run -it --rm pvgenuchten/geodatacrawler crawl-metadata --help
 ```
 
 For advanced docker statements there are some differences between Windows commandline, Windows powershell and Linux. Use the relevant syntax for your system. 
@@ -111,13 +81,13 @@ crawl-metadata --mode=init --dir=data
 # Dckr & Linux
 ```bash
 docker run -it --rm -v$(pwd):/tmp \
- org/metatraining crawl-metadata \
+ pvgenuchten/geodatacrawler crawl-metadata \
  --mode=init --dir=tmp/data
 ```
 # Dckr & Powershell
 ```bash
 docker run -it --rm -v "${PWD}:/tmp" `
-  org/metatraining crawl-metadata `
+  pvgenuchten/geodatacrawler crawl-metadata `
   --mode=init --dir=/tmp/data
 ```
 :::
@@ -137,13 +107,13 @@ crawl-metadata --mode=update --dir=data
 # Dckr & Linux
 ```bash
 docker run -it --rm -v$(pwd):/tmp \
- org/metatraining crawl-metadata \
+ pvgenuchten/geodatacrawler crawl-metadata \
  --mode=update --dir=tmp/data
 ```
 # Dckr & Powershell
 ```bash
 docker run -it --rm -v "${PWD}:/tmp" `
-  org/metatraining crawl-metadata `
+  pvgenuchten/geodatacrawler crawl-metadata `
   --mode=update --dir=/tmp/data
 ```
 :::
@@ -162,14 +132,14 @@ crawl-metadata --mode=export --dir=data --dir-out=export --dir-out-mode=flat
 # Dckr & Linux
 ```bash
 docker run -it --rm -v$(pwd):/tmp \
- org/metatraining crawl-metadata \
+ pvgenuchten/geodatacrawler crawl-metadata \
  --mode=export --dir=tmp/data \
  --dir-out=export --dir-out-mode=flat
 ```
 # Dckr & Powershell
 ```bash
 docker run -it --rm -v "${PWD}:/tmp" `
-  org/metatraining crawl-metadata `
+  pvgenuchten/geodatacrawler crawl-metadata `
   --mode=export --dir=/tmp/data `
   --dir-out=/tmp/export --dir-out-mode=flat
 ```

@@ -217,5 +217,5 @@ While users are browsing the catalogue (or this page), they may find irregularit
 
 ## Summary
 
-In this section you learned about using actions in Github (CI/CD). In the next section we are diving into data publication. Notice that you can also use GIT CI/CD mechanisms to deploy or evaluate metadata and data services.
+In this section you learned about using actions in Github (CI/CD). In the [next section](./6-data-publication.md) we are diving into data publication. Notice that you can also use GIT CI/CD mechanisms to deploy or evaluate metadata and data services.
 
