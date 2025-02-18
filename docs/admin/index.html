@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.38">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -67,10 +67,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b663525e4b92bb903b2199e2d401bf36.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-3ea7a5766832052d8f5556d6dfc4f133.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-c2a9a71f882ccafcd37e74e5573b4365.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -177,49 +177,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="github" class="level2">
 <h2 class="anchored" data-anchor-id="github">Github</h2>
-<p>The current hub is published via <a href="https://github.com/lsc-hubs">Github</a>. Github is a commercial service provider offering GIT services plus a number of add-ons to facilitate co-creation. Alternative GIT providers can be considered, such as <a href="https://gitlab.com">gitlab</a>, <a href="https://bitbucket.org/">bitbucket</a>. Notice that it is also possible to install gitlab on premise.</p>
-<p>As an LSC hub administrator it is relevant to familiarise yourself with Github. Notice that some tools exist to facilitate the use of Git, such as <a href="https://desktop.github.com/">Github desktop</a>, <a href="https://www.syntevo.com/smartgit/">Smartgit</a> and <a href="https://www.gitkraken.com/">Git Kraken</a>. Some prefer the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio">Github plugin</a> of <a href="https://visualstudio.microsoft.com/">Visual Studio</a>.</p>
+<p>The current hub is published via <a href="https://github.com">Github</a>. Github is a commercial service provider offering GIT services plus a number of add-ons to facilitate co-creation. Alternative GIT providers can be considered, such as <a href="https://gitlab.com">gitlab</a>, <a href="https://bitbucket.org/">bitbucket</a>. Notice that it is also possible to install gitlab on premise.</p>
+<p>As an LSC hub administrator it is relevant to familiarise yourself with Github. Notice that some tools exist to facilitate the use of Git, such as <a href="https://desktop.github.com/">Github desktop</a>, <a href="https://www.syntevo.com/smartgit/">Smartgit</a> and <a href="https://www.gitkraken.com/">Git Kraken</a>. Some prefer the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio">Github plugin</a> of <a href="https://visualstudio.microsoft.com/">Visual Studio Code</a>.</p>
 </section>
-<section id="lsc-hub" class="level2">
-<h2 class="anchored" data-anchor-id="lsc-hub">LSC Hub</h2>
-<p>A number of content pages is made available to guide the user within the hub. These pages are maintained in <a href="https://github.com/lsc-hubs/hub-core">github</a> as markdown. Notice the <code>edit link</code> in the footer of each page. The pages are rendered to html using the <a href="https://quarto.org/docs/websites/">quarto</a> tool. Editing of quarto documents is facilitated by a <a href="https://quarto.org/docs/tools/vscode.html">quarto plugin</a> in <a href="https://visualstudio.microsoft.com/">visual studio</a>.</p>
-<p>The quarto tool is configured as a <a href="https://en.wikipedia.org/wiki/CI/CD">ci-cd</a> action in github. You can follow the progress of an action in the actions tab. In some cases an action may fail and human interaction is needed to fix the problem and/or restart the action.</p>
-</section>
-<section id="discussions" class="level2">
-<h2 class="anchored" data-anchor-id="discussions">Discussions</h2>
-<p>Discussions are managed within <a href="https://github.com/lsc-hubs/Kenya-hub/discussions">github</a>. A <a href="https://giscus.app/">giscus widget</a> is added to every resource page, so users can provide feedback or ask questions about the resource. These questions are stored as github discussions. Discussions can be answered from the resource page (a github login is required) or from github discussions. Users should be invited to the github project to be able to administer github discussions.</p>
-</section>
-<section id="maps" class="level2">
-<h2 class="anchored" data-anchor-id="maps">Maps</h2>
-<p>The TerriaJS framework enables users to share maps and map stories with stakeholders (share button top-right). Notice that you can also use this functionality to link from a description of a resource to a map, which displays some data in a certain context.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">A nice map</span><span class="co">](https://maps.lsc-hubs.org/#start=%7B%22version%22%...)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Another option is to store the map definition (urldecoded) on a folder of TerriaJS. The map is then available by its filename. You can now add a link to this map for example in the <code>related maps</code> section of TerriaJS (config.json).</p>
-</section>
-<section id="map-services" class="level2">
-<h2 class="anchored" data-anchor-id="map-services">Map services</h2>
-<p>Map services on source data are configured using <a href="https://mapserver.org/mapfile/">mapserver mapfiles</a>. The configuration is generated from the metadata of the source data using the <a href="https://pypi.org/project/geodatacrawler/">geodatacrawler</a> tool. Mapfiles are stored on a NFS (accessible via webdav) or in the mapserver (docker) container. Source of the mapfiles is preferably stored on Git.</p>
-<p>Every new mapfile is registered in the mapserver config file as an <a href="https://mapserver.org/mapfile/config.html">alias</a></p>
+<section id="lsc-hub-content-pages" class="level2">
+<h2 class="anchored" data-anchor-id="lsc-hub-content-pages">LSC Hub Content Pages</h2>
+<p>A number of content pages is made available to guide the user within the hub. These pages are maintained in github in a <a href="https://quarto.org/docs/authoring/markdown-basics.html">markdown</a> format. Notice the <code>edit link</code> in the footer of each page, which brings you to the source of the page in Github, in order to edit the page. The pages are rendered to html using the <a href="https://quarto.org/docs/websites/">quarto</a> tool, every time you make an edit to a page. The quarto tool is configured as a <a href="https://en.wikipedia.org/wiki/CI/CD">ci-cd</a> action in github. You can follow the progress of an action in the <code>actions</code> tab. In some cases an action may fail and human interaction is needed to fix the problem and/or restart the action.</p>
+<p>In case you want to make a lot of edits or resolve conflicts, it is often better to clone the repository locally. Editing of quarto documents locally is facilitated by a <a href="https://quarto.org/docs/tools/vscode.html">quarto plugin</a> in <a href="https://visualstudio.microsoft.com/">visual studio code</a>. The plugin allows you to preview the website locally.</p>
 </section>
 <section id="catalogue" class="level2">
 <h2 class="anchored" data-anchor-id="catalogue">Catalogue</h2>
-<p>The catalogue can be linked to various information sources, without the data being stored on the LSC hub. Therefore, if you know existing information sources that are missing and should be added. Proving metadata is essential for findability and to avoid ambiguity.</p>
-<p>Source of catalogue records is maintained at <a href="https://github.com/lsc-hubs/Kenya-catalogue">github</a>. Records are organised in Global, Continental, and country. Within country they are organised by portal/initiative.</p>
+<p>The catalogue can be linked to various information sources, with or without the data being stored on the LSC hub. Therefore, if you know existing information sources that are missing and should be added. Proving metadata is essential for findability and to avoid ambiguity.</p>
+<p>The source of catalogue records is maintained in a git repository. The records are organised in Global, Continental, and country level. Within country they are organised by organisation.</p>
 <p>Metadata records are stored in the <a href="https://geopython.github.io/pygeometa/reference/mcf/">mcf</a> format, a subset of iso19115 in a conveniant yaml encoding. But you can also add them as iso19115 xml format.</p>
+<p>Every time a record is added or modified in Git, a CI-CD action published the records to the catalogue. Depending on the setup this may take 10 minutes to a day.</p>
 <p>A number of mechanisms is available to load records into the catalogue.</p>
 <ul>
 <li>Import records from external sources, such as data portals (zenodo, dataverse, CSW, STAC, OSF)</li>
-<li>Mcf records can be created using <a href="https://osgeo.github.io/mdme">mdme</a></li>
-<li>A <a href="https://github.com/lsc-hubs/Kenya-catalogue/blob/main/portals/KE/LSC/index.csv">Excel template</a> is available, on which resources can be described. A single resource per record.</li>
-<li>An <a href="https://odk.isric.org/-/single/n2Sosp1gxbXLUcOelRBWsMru72DSLFb?st=pi9NCIyCBZIeYuVU0lb812NtQfOucM34dS04qF6GFaao2FB!c3DJDl10TTRTeOUJ">ODK form</a> is available on which users can describe resources</li>
+<li>MCF records can be created using <a href="https://osgeo.github.io/mdme">mdme</a></li>
+<li>A Excel template is available, on which resources can be described. A single resource per record.</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./img/ODK.PNG" class="w-50 img-fluid figure-img"></p>
-<figcaption>ODK</figcaption>
-</figure>
-</div>
+<p>The geodata crawler tool is used to convert Excel to MCF. The crawler converts also from MCF to XML, which is then loaded into the catalogue.</p>
+</section>
+<section id="webdav" class="level2">
+<h2 class="anchored" data-anchor-id="webdav">Webdav</h2>
+<p>A webdav service can be added to facilitate users in uploading a dataset. The datasets are stored in a folder on the server. Backups should be made of that folder at intervals, to prevent data loss. A webdav service can be mounted as a file folder in Windows. Contributors are strongly invited to place an MCF file next to each data file they upload. If such a file is not added, it can be automatically generated at intervals using the geodatacrawler tool. Contributors can then update the MCF to match their expectations. The MCF files are loaded in the catalogue at intervals.</p>
+</section>
+<section id="map-services" class="level2">
+<h2 class="anchored" data-anchor-id="map-services">Map services</h2>
+<p>Map services on source data are configured using <a href="https://mapserver.org/mapfile/">mapserver mapfiles</a>. The configuration is generated from the metadata of the source data using the <a href="https://pypi.org/project/geodatacrawler/">geodatacrawler</a> tool. Mapfiles are stored on a drive (accessible via webdav). Source of the mapfiles is preferably stored on Git.</p>
+<p>Every new mapfile is registered in the mapserver config file as an <a href="https://mapserver.org/mapfile/config.html">alias</a></p>
+<p>The metadata of data resources is updated by the crawler to include a link to the mapserver.</p>
+</section>
+<section id="maps" class="level2">
+<h2 class="anchored" data-anchor-id="maps">Maps</h2>
+<p>The <a href="https://terria.io">TerriaJS</a> framework enables users to share maps and map stories with stakeholders (share button top-right). Notice that you can also use this functionality to link from a description of a resource to a map, which displays some data in a certain context.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">A nice map</span><span class="co">](https://maps.lsc-hubs.org/#start=%7B%22version%22%...)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Another option is to store the map definition (urldecoded) on a folder of TerriaJS. The map is then available by its filename. You can now add a link to this map for example in the <code>related maps</code> section of TerriaJS (config.json).</p>
+</section>
+<section id="user-feedback" class="level2">
+<h2 class="anchored" data-anchor-id="user-feedback">User feedback</h2>
+<p>Feedback options are an important aspect of a community. With feedback the administrators become aware of new opportunities for the hub. Feedback can be organised in various ways.</p>
+<section id="form-to-email" class="level3">
+<h3 class="anchored" data-anchor-id="form-to-email">Form to email</h3>
+<p>Platforms such as <a href="https://formspark.io">formspark.io</a> offer capabilities to send any form as an email to an email box. Administrators monitor incoming emails at intervals, while responding to user questions. It is recommended to share the feedback, for others to learn about the interaction. For example through a Frequently Asked Questions section in the Hub Content Pages.</p>
+</section>
+<section id="github-discussions" class="level3">
+<h3 class="anchored" data-anchor-id="github-discussions">Github discussions</h3>
+<p>Discussions are managed within github. A <a href="https://giscus.app/">giscus widget</a> can be added to every resource page, so users can provide feedback or ask questions about the resource. These questions are stored as github discussions. Discussions can be answered from the resource page (a github login is required) or from github discussions. Users should be invited to the github project to be able to administer github discussions.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
