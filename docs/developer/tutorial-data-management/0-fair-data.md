@@ -233,4 +233,4 @@ In academia provenance and processing are usually described in scientific articl
 
 ## Summary
 
-In this section you learned about the FAIR principles and how this applies to the soil data community. In the next sections we will introduce a data management strategy we use on some of our projects. We expect some of the presented tools may be worthwile to have a closer look at, to see if it can support you in your daily tasks.
+In this section you learned about the FAIR principles and how this applies to the soil data community. In the [next section](./2-interact-with-data-repositories.md) we will introduce a data management strategy we use on some of our projects. We expect some of the presented tools may be worthwile to have a closer look at, to see if it can support you in your daily tasks.

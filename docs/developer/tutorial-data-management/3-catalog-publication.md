@@ -154,4 +154,4 @@ docker run -p 8000:8000 `
 
 ## Summary
 
-In this paragraph you learned how datasets can be published into a catalogue. In the next paragraph, we'll look at importing metadata from external sources.
+In this paragraph you learned how datasets can be published into a catalogue. In the next paragraph, we'll look at [importing metadata from external sources](./4-bulk-import.md).
