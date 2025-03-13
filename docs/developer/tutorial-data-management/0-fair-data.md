@@ -31,9 +31,9 @@ Metadata and data should be easy to find for both humans and computers.
 ### Data and metadata have a unique persistent identifier
 
 - A minimal approach to create a unique identifier ([URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)) is to combine a local identifier with a domain. For example: <https://data.kalro.org/profiles/aa1-49bc-d11e>
-- In theory, URIs do not need to `resolve` to an actual website, but it is a good practice to provide meaningfulcontent at each uri.
-- Do not use product names and project names inURIs, it is difficult to maintain persistence. 
-- Frameworks such as [DOI](https://doi.org) and [ePIC](http://www.pidconsortium.net) offer a identification layer for online resources.
+- In theory, URIs do not need to `resolve` to an actual website, but it is a good practice to provide meaningful content at each uri.
+- Do not use product names and project names in URIs. It will be difficult to maintain persistence. 
+- Frameworks such as [DOI](https://doi.org), [handle.net](https://handle.net) and [ePIC](http://www.pidconsortium.net) offer a identification layer for online resources.
 
 :::{.callout-tip}
 For the following datasets, review the uniqueness and persistence of their identifier and the identifier of the data. 
@@ -43,7 +43,7 @@ For the following datasets, review the uniqueness and persistence of their ident
 - [d5bb6b02-0979-5112-8dd6-9aef6638fb73](https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_daily/items/d5bb6b02-0979-5112-8dd6-9aef6638fb73)
 - [select-nutrition-indicators-data-for-kenya-2022](https://kenya.opendataforafrica.org/lrysdue/select-nutrition-indicators-data-for-kenya-2022)
 
-Perform the same analyses for some datasets on your local machine or organisation network.
+Perform the same analyses for some datasets on your organisation network.
 :::
 
 ### Describe the data source with rich metadata
