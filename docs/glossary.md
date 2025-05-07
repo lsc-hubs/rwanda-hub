@@ -6,19 +6,23 @@ author: Paul van Genuchten
 
 # Glossary
 
-catalogue: a search functionality on a set of metadata records
+API: Application Programming Interface 
 
-environmental data: data about environmental phenomena, such as landscape, soil, water, weather, vegetation.
+Catalogue: a search functionality on a set of metadata records
 
-esri shapefile: A format to store spatial tabular data by Esri Inc. Each dataset consists of a number of files, with different extensions such as .shp, .dbf, .shn. The files are often packaged in a zip archive. 
+Catalogue Service for the Web (OGC:CSW): a standard protocol to serve metadata records on spatial datasets over the web
 
-git: Git is a distributed version control system[9] that tracks versions of files. It is often used to control source code by programmers who are developing software collaboratively. source: [wikipedia](https://en.wikipedia.org/wiki/Git)
+Environmental data: data about environmental phenomena, such as landscape, soil, water, weather, vegetation.
 
-github: a service provider for git repositories. A number of additional services is provided on top of git to facilitate the community
+Esri shapefile: A format to store spatial tabular data by Esri Inc. Each dataset consists of a number of files, with different extensions such as .shp, .dbf, .shn. The files are often packaged in a zip archive. 
 
-geotiff: a metadata standard which allows georeferencing information to be embedded within a TIFF file. source: [wikipedia](https://en.wikipedia.org/wiki/GeoTIFF)
+Git: Git is a distributed version control system[9] that tracks versions of files. It is often used to control source code by programmers who are developing software collaboratively. source: [wikipedia](https://en.wikipedia.org/wiki/Git)
 
-map viewer: a vizualisation tool for spatial data
+Github: a service provider for git repositories. A number of additional services is provided on top of git to facilitate the community
+
+Geotiff: a metadata standard which allows georeferencing information to be embedded within a TIFF file. source: [wikipedia](https://en.wikipedia.org/wiki/GeoTIFF)
+
+Map viewer: a vizualisation tool for spatial data
 
 Web Map Service (OGC:WMS) is a standard protocol developed by the Open Geospatial Consortium for serving georeferenced map images over the Internet. These images are typically produced by a map server from data provided by a GIS database. source: [wikipedia](https://en.wikipedia.org/wiki/Web_Map_Service)
 
@@ -28,6 +32,6 @@ Web Coverage Service (OGC:WCS): a standard protocol to serve parts of a grid dat
 
 ph: a scale for measuring the acidity of a solution
 
-qgis: a desktop application to vizualise and analyse various types of spatial data. [website](https://www.qgis.org)
+Qgis: a desktop application to vizualise and analyse various types of spatial data. [website](https://www.qgis.org)
 
 
