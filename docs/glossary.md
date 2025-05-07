@@ -32,4 +32,4 @@ author: LSC team
 
 **Qgis**: a desktop application to vizualise and analyse various types of spatial data. [website](https://www.qgis.org)
 
-**User story**: A typical usage scenario of the hub. A <ROLE> performs a <TASK> so a certain <BENEFIT> is realised. For example, a farmer (role) reduces erosion (benefit) by applying contour ploughing (task). 
+**User story**: A typical usage scenario of the hub. A [ROLE] performs a [TASK] so a certain [BENEFIT] is realised. For example, a farmer (role) reduces erosion (benefit) by applying contour ploughing (task). 
