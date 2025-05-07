@@ -60,7 +60,7 @@ The LSC hub offers a diverse range of datasets, maps and documents, including ob
     Search data catalogue
   </label>
   <input
-    type="text"
+    type="text" name="q"
     class="section-data__form__input form-control form-control-lg"
     id="searchDataCatalogue"
     placeholder="Search data catalogue"
