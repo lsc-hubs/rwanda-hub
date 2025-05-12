@@ -31,6 +31,9 @@ website:
         file: "/#hub-community"
       - text: Docs
         file: "/#documents"
+      - text: Language
+        rel: lang
+        file: "#"
   sidebar:
     - title: "Docs"
       style: "docked"

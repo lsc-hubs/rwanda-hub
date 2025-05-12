@@ -73,3 +73,22 @@ boxIt = function(res, icon, style, showDescription, truncateTitle) {
 
   return cnt;
 }
+
+
+getSelect = function(){
+  var opts = '<select class="form-control form-control-sm" onchange="setLang(this.value)">'+
+             '<option>English</option>'+
+             '<option value="sw">Swahili</option>'+
+             '<option value="ar">Arabic</option>'+
+             '<optgroup label="By Google Translate" class="bg-light"></optgroup></select>';
+  var so = document.createElement('div');
+  so.innerHTML = opts;
+  return so.firstChild;
+}
+setLang = function(l){
+  if (l){
+    document.location.href=(document.location.href.replace('localhost','kenya-lsc--hubs-org.translate.goog').split('?')[0]+'?_x_tr_sl=en&_x_tr_tl='+l+'&_x_tr_hl=en')
+  }
+}
+document.querySelectorAll("*[rel='lang']")[0].before(getSelect());
+document.querySelectorAll("*[rel='lang']")[0].remove();
