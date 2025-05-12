@@ -34,22 +34,6 @@ website:
       - text: Language
         rel: lang
         file: "#"
-  sidebar:
-    - title: "Docs"
-      style: "docked"
-      background: light
-      collapse-level: 2
-      contents:
-        - text: User
-          file: docs/user
-        - text: Administrator
-          file: docs/admin
-        - section: Developer
-          contents:
-            - section: Hub components
-              contents: docs/developer/*
-            - section: Workshop Data
-              contents: docs/developer/tutorial-data-management/*
 
 format:
   html:

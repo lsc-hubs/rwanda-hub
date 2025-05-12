@@ -6,17 +6,6 @@ page-layout: custom
 include-after-body:
   text: >
     <script src="./assets/js/getCatalogRecords.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        getRecords({
-          catalogBaseUrl: '{{< var catalog >}}',
-          qs: '#popular-maps',
-          icon: 'map',
-          itemType: 'dataset',
-          style: 'g-col-6 g-col-lg-4'
-        });
-      });
-    </script>
 ---
 
 ::: {.page-section section_name='intro'}
