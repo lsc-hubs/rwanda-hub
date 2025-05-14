@@ -1,0 +1,7 @@
+# the file gets loaded with env param QUARTO_PROFILE=rwanda or quarto render --profile rwanda
+
+website:
+  repo-url: "{{< var github >}}"
+  navbar:
+    logo: ./assets/images/logo-rwanda.svg
+    logo-alt: "Logo of Land Soil Crop Hub Rwanda"

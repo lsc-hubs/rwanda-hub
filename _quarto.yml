@@ -6,7 +6,7 @@ project:
 
 website:
   favicon: /assets/images/favicon.svg
-  repo-url: "{{< var github >}}"
+  repo-url: "https://github.com/lsc-hubs/kenya-hub"
   repo-actions:
     - edit
     - issue
@@ -14,12 +14,12 @@ website:
     left:
     - text: LSC Hubs 2025
       file: https://www.lsc-hubs.org
-  title: "Land Soil Crop Hub {{< var country >}}"
+  title: "Land Soil Crop Hub"
   search: false
   navbar:
     pinned: true
-    logo: ./assets/images/logo-{{< var country >}}.svg
-    logo-alt: "Logo of Land Soil Crop Hub {{< var country >}}"
+    logo: ./assets/images/logo.svg
+    logo-alt: "Logo of Land Soil Crop Hub"
     right:
       - text: Data and Information
         file: "/#data-and-information"

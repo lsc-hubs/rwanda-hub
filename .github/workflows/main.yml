@@ -21,5 +21,6 @@ jobs:
         with:
           target: gh-pages
         env:
+          QUARTO_PROFILE: rwanda
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
       
