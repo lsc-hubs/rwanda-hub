@@ -73,3 +73,15 @@ boxIt = function(res, icon, style, showDescription, truncateTitle) {
 
   return cnt;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  getRecords({
+    catalogBaseUrl: 'https://'+document.location.host+'/cat',
+    qs: '#popular-maps',
+    icon: 'map',
+    itemType: 'dataset',
+    style: 'g-col-6 g-col-lg-4'
+  });
+});
+
+
