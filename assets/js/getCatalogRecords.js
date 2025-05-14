@@ -74,22 +74,14 @@ boxIt = function(res, icon, style, showDescription, truncateTitle) {
   return cnt;
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  getRecords({
+    catalogBaseUrl: 'https://'+document.location.host+'/cat',
+    qs: '#popular-maps',
+    icon: 'map',
+    itemType: 'dataset',
+    style: 'g-col-6 g-col-lg-4'
+  });
+});
 
-getSelect = function(){
-  var opts = '<select class="nav-link" onchange="setLang(this.value)">'+
-             '<option>English</option>'+
-             '<option value="sw">Swahili</option>'+
-             '<option value="fr">French</option>'+
-             '<option value="ar">Arabic</option>'+
-             '<optgroup label="By Google Translate" class="bg-light"></optgroup></select>';
-  var so = document.createElement('div');
-  so.innerHTML = opts;
-  return so.firstChild;
-}
-setLang = function(l){
-  if (l){
-    document.location.href=(document.location.href.replace('lschub.kalro.org','lschub-kalro-org.translate.goog').split('?')[0]+'?_x_tr_sl=en&_x_tr_tl='+l+'&_x_tr_hl=en')
-  }
-}
-document.querySelectorAll("*[rel='lang']")[0].before(getSelect());
-document.querySelectorAll("*[rel='lang']")[0].remove();
+

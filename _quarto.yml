@@ -5,14 +5,14 @@ project:
     - "*.qmd"
 
 website:
-  favicon: ./assets/images/favicon.svg
+  favicon: /assets/images/favicon.svg
   repo-url: https://github.com/KalroDevs/lschub-cms
   repo-actions:
     - edit
     - issue
   page-footer:
     left:
-    - text: LSC Hubs 2024
+    - text: LSC Hubs 2025
       file: https://www.lsc-hubs.org
   title: "Land Soil Crop Hub {{< var country >}}"
   search: false
@@ -40,6 +40,10 @@ format:
     page-layout: full
     theme:
       - ./assets/css/custom.scss
+    include-in-header:
+        - text: |
+            <script>const langs = "{{< var langs >}}";const langlables = "{{< var langlabels >}}";</script>
+            <script src="/assets/js/translateOption.js"></script>
     code-copy: true
     code-overflow: wrap
     filters:

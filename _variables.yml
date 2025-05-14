@@ -1,5 +1,7 @@
 
 country: Kenya
+langs: "sw,ar,fr"
+langlabels: "Swahili,Arabic,French"
 homepage: https://lschub.kalro.org/
 catalog: https://lschub.kalro.org/cat/
 maps: https://lschub.kalro.org/map/

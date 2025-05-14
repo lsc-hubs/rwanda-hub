@@ -5,7 +5,7 @@ body-classes: frontpage
 page-layout: custom
 include-after-body:
   text: >
-    <script src="./assets/js/getCatalogRecords.js"></script>
+    <script src="/assets/js/getCatalogRecords.js"></script>
 ---
 
 ::: {.page-section section_name='intro'}
