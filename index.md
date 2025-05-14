@@ -99,7 +99,7 @@ for data-driven analytical approaches that involve the use of statistical or mac
 
 The interactive mapviewer enables direct interaction with data.\
 View existing, reference remote or upload local data.\
-Need help? Find info and documentation [here](/docs/user/index.md#map-viewer).
+Need help? Find info and documentation [here](/docs/index.md#map-viewer).
 
 [Open map viewer]({{< var maps >}}){.btn .btn-primary .my-3}
 :::::
