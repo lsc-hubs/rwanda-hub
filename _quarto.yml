@@ -18,7 +18,7 @@ website:
   search: false
   navbar:
     pinned: true
-    logo: ./assets/images/logo.svg
+    logo: ./assets/images/logo-{{< var country >}}.svg
     logo-alt: "Logo of Land Soil Crop Hub {{< var country >}}"
     right:
       - text: Data and Information

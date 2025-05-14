@@ -2,9 +2,9 @@
 country: Rwanda
 langs: "fr,rw,sw"
 langlabels: "French,Kinyarwanda,Swahili"
-homepage: https://lsc-hubs.github.io/rwanda-hub
-catalog: https://lsc-hubs.github.io/rwanda-hub/cat/
-maps: https://lsc-hubs.github.io/rwanda-hub/map/
+homepage: https://rwanda.lsc-hubs.org/
+catalog: https://rwanda.lsc-hubs.org/cat/
+maps: https://rwanda.lsc-hubs.org/map/
 github: https://github.com/lsc-hubs/rwanda-hub
 giscus-repo: lsc-hubs/rwanda-hub
 giscus-repo-id: rwanda-hub
