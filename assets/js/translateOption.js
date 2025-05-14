@@ -13,9 +13,11 @@ getSelect = function(){
     so.innerHTML = opts;
     return so.firstChild;
 }
+
 setLang = function(l){
     if (l){
-        document.location.href=(document.location.href.replace(document.location.host,document.location.host.replace('.','-') + '.translate.goog').split('?')[0]+'?_x_tr_sl=en&_x_tr_tl='+l+'&_x_tr_hl=en')
+        var dmn = document.location.host.replace('.','-').replace(':','-') + '.translate.goog' 
+        document.location.href=(document.location.href.replace(document.location.host, dmn).split('?')[0]+'?_x_tr_sl=en&_x_tr_tl='+l+'&_x_tr_hl=en')
     }
 }
 
