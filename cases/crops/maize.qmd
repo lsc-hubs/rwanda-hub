@@ -3,6 +3,23 @@ title: 'Maize'
 date: 2023-07-05
 sidebar: false
 page-layout: custom
+include-after-body:
+  text: >
+    <script src="/assets/js/getCatalogRecords.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        getRecords({
+          catalogBaseUrl: '{{< var catalog >}}',
+          qs: '#relevant-resources',
+          icon: 'arrow-right',
+          numberOfItems: 9,
+          keywords: 'Crop',
+          searchQuery: 'maize',
+          style: 'g-col-6 g-col-md-4',
+          truncateTitle: true
+        });
+      });
+    </script>
 ---
 
 ::: {.page-section section_name='intro'}
