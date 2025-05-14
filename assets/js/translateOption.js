@@ -16,7 +16,7 @@ getSelect = function(){
 
 setLang = function(l){
     if (l){
-        var dmn = document.location.host.replaceAll('.','-').replace(':','-') + '.translate.goog' 
+        var dmn = document.location.host.replaceAll('-','--').replaceAll('.','-').replace(':','-') + '.translate.goog' 
         document.location.href=(document.location.href.replace(document.location.host, dmn).split('?')[0]+'?_x_tr_sl=en&_x_tr_tl='+l+'&_x_tr_hl=en')
     }
 }
