@@ -6,7 +6,7 @@ project:
 
 website:
   favicon: /assets/images/favicon.svg
-  repo-url: https://github.com/KalroDevs/lschub-cms
+  repo-url: "{{< var github >}}"
   repo-actions:
     - edit
     - issue

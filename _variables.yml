@@ -1,12 +1,12 @@
 
-country: Kenya
-langs: "sw,ar,fr"
-langlabels: "Swahili,Arabic,French"
-homepage: https://lschub.kalro.org/
-catalog: https://lschub.kalro.org/cat/
-maps: https://lschub.kalro.org/map/
-github: https://github.com/kalrodevs/lschub-catalogue
-giscus-repo: kalrodevs/lschub-catalogue
-giscus-repo-id: example
+country: Rwanda
+langs: "fr,rw,sw"
+langlabels: "French,Kinyarwanda,Swahili"
+homepage: https://lsc-hubs.github.io/rwanda-hub
+catalog: https://lsc-hubs.github.io/rwanda-hub/cat/
+maps: https://lsc-hubs.github.io/rwanda-hub/map/
+github: https://github.com/lsc-hubs/rwanda-hub
+giscus-repo: lsc-hubs/rwanda-hub
+giscus-repo-id: rwanda-hub
 giscus-cat: "Q&A"
-giscus-cat-id: example
+giscus-cat-id: rwanda-hub
