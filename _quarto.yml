@@ -6,7 +6,7 @@ project:
 
 website:
   favicon: /assets/images/favicon.svg
-  repo-url: "https://github.com/lsc-hubs/kenya-hub"
+  repo-url: "https://github.com/lsc-hubs/rwanda-hub"
   repo-actions:
     - edit
     - issue

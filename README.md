@@ -1,6 +1,6 @@
-# LSC-Hub Kenya
+# LSC-Hub Rwanda
 
-LSC hub Kenya is one of currently 3 national hubs in Africa around Land Soil Crop Data. The hubs are being prepared as part of the [Land, Soil and Crop Information Services to support Climate-Smart Agriculture](https://lsc-hubs.org) project.
+LSC hub Rwanda is one of currently 3 national hubs in Africa around Land Soil Crop Data. The hubs are being prepared as part of the [Land, Soil and Crop Information Services to support Climate-Smart Agriculture](https://lsc-hubs.org) project.
 This four-year project (2021-2024) is jointly funded by the European Union's [Development Smart Innovation through Research in Agriculture](https://international-partnerships.ec.europa.eu/policies/programming/programmes/desira-development-smart-innovation-through-research-agriculture_en)
 (DeSIRA) program, The [Netherlands' Ministry of Foreign Affairs](https://www.government.nl/ministries/ministry-of-foreign-affairs) and [ISRIC - World Soil Information](https://isric.org).
 
