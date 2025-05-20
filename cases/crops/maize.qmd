@@ -29,9 +29,9 @@ include-after-body:
 
 # Maize
 
-Maize is the most important cereal crop in Kenya. It is the staple food for most rural population. It is used as a human food, animal feed, production of beverages and also making of bio-fuel. Maize is a versatile crop with a wide genetic base and a large number of varieties growing across a range of agro-ecological zones (AEZ) and soil types and having differing maturity periods. However, maize grows best on well-drained, well-aerated, deep soils containing adequate organic matter and well supplied with requisite nutrients. Maize will produce 2 metric tons per hectare under good management
+Maize is an important cereal crop in Rwanda. It is the staple food for most rural population. It is used as a human food, animal feed, production of beverages and also making of bio-fuel. Maize is a versatile crop with a wide genetic base and a large number of varieties growing across a range of agro-ecological zones (AEZ) and soil types and having differing maturity periods. However, maize grows best on well-drained, well-aerated, deep soils containing adequate organic matter and well supplied with requisite nutrients. Maize will produce 2 metric tons per hectare under good management
 
-{{< icon-link title="Read more at keep.kalro.org" icon_library="bootstrap" icon="arrow-right" link="https://keep.kalro.org/good-agricultural-practices/Maize" >}}
+{{< icon-link title="Read more at www.rab.gov.rw" icon_library="bootstrap" icon="arrow-right" link="https://www.rab.gov.rw/1-1/news/cereals-program" >}}
 :::::
 
 ::::: {.g-col-12 .g-col-md-5 .g-start-lg-8}
@@ -59,7 +59,7 @@ Yield gap analysis results at climate zone level for rainfed maize, as determine
 ```{=html}
 <script>
 const mymap = {
-  "center":[.5,35],
+  "center":[-2,30],
   "zoom":5,
   layers: [
     {
@@ -96,7 +96,7 @@ Loading relevant resources...
 ### Other resources
 
 - [Maize Crop Calendar](https://cropcalendar.apps.fao.org/#/home?id=KE&crops=0113) (FAO)
-- [Management practices](https://qcat.wocat.net/en/wocat/list/?type=wocat&q=maize&filter__qg_location__country=country_KEN) (Wocat)
+- [Management practices](https://qcat.wocat.net/en/wocat/list/?type=wocat&filter__qg_location__country=country_RWA) (Wocat)
 - [Higher maize yields, a guide to good agronomic practices in smallholder systems](https://www.apni.net/wp-content/uploads/2020/12/Higher-Maize-Yield-0720.pdf) (APNI)
 - [Maize crop nutrient input requirements for food security in sub-Saharan Africa](https://doi.org/10.1016/j.gfs.2019.02.001) (Wageningen University)
 :::::
